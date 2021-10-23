@@ -1,5 +1,5 @@
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class FizzBuzzTest {
 
@@ -11,7 +11,9 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzzObj = new FizzBuzz();
         String[] actualResult = fizzBuzzObj.fizzBuzz(startNumber, endNumber);
 
-        Assert.assertEquals(actualResult, expectedResult);
+        Assert.assertArrayEquals(expectedResult, actualResult);
+
+
 
     }
 
