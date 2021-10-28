@@ -35,8 +35,8 @@ public class MainTest {
     public void testPageTitle() {
         driver.get(URL);
 
-        String expectedTitle = driver.findElement(By.xpath("//a[@href='/catalog/51']/div[@class='course-list-card__title']")).getText();
-        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/51']"));
+        String expectedTitle = driver.findElement(By.xpath("//a[@href='/catalog/2']/div[@class='course-list-card__title']")).getText();
+        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/2']"));
         catalog.click();
 
         String actualTitle = driver.findElement(By.xpath("//div[contains (@class, 'catalog__category')]//h1[@class = 'catalog-block__title']")).getText();
@@ -48,9 +48,9 @@ public class MainTest {
     public void testCourseNumber() {
         driver.get(URL);
 
-        String strExpectedNumber = driver.findElement(By.xpath("//a[@href='/catalog/12']/div[@class='course-list-card__courses']")).getText();
+        String strExpectedNumber = driver.findElement(By.xpath("//a[@href='/catalog/34']/div[@class='course-list-card__courses']")).getText();
         int expectedNumber = Integer.parseInt(strExpectedNumber.replaceAll("[^0-9]", ""));
-        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/12']"));
+        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/34']"));
         catalog.click();
 
         List<WebElement> itemList = driver.findElements(By.xpath("//div[@data-list-type='default']//li[@class = 'course-cards__item']"));
