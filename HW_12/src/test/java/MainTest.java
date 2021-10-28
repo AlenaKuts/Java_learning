@@ -35,8 +35,8 @@ public class MainTest {
     public void testPageTitle() {
         driver.get(URL);
 
-        String expectedTitle = driver.findElement(By.xpath("//a[@href='/catalog/2']/div[@class='course-list-card__title']")).getText();
-        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/2']"));
+        String expectedTitle = driver.findElement(By.xpath("//a[@href='/catalog/51']/div[@class='course-list-card__title']")).getText();
+        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/51']"));
         catalog.click();
 
         String actualTitle = driver.findElement(By.xpath("//div[contains (@class, 'catalog__category')]//h1[@class = 'catalog-block__title']")).getText();
