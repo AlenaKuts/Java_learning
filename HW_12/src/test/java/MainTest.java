@@ -1,3 +1,4 @@
+import base.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,25 +12,11 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class MainTest {
+public class MainTest extends BaseTest {
 
     private WebDriver driver;
     private static final String URL = "https://stepik.org/catalog";
 
-    @BeforeMethod
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-
-        driver = new ChromeDriver();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-    }
-
-    @AfterMethod
-    public void setDown() {
-        driver.quit();
-    }
 
     @Test
     public void testPageTitle() {
