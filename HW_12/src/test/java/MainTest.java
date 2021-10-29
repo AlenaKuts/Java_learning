@@ -1,41 +1,60 @@
 import base.BaseTest;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
+public class MainTest {
 
-public class MainTest extends BaseTest {
-
-
+    private WebDriver driver;
     private static final String URL = "https://stepik.org/catalog";
 
+    @BeforeMethod
+    public void setUp() {
+        WebDriverManager.chromedriver().setup();
+
+        driver = new ChromeDriver();
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+    }
+
+    @AfterMethod
+    public void setDown() {
+        driver.quit();
+    }
 
     @Test
     public void testPageTitle() {
-        getDriver().get(URL);
+        driver.get(URL);
 
-        String expectedTitle = getDriver().findElement(By.xpath("//a[@href='/catalog/51']/div[@class='course-list-card__title']")).getText();
-        WebElement catalog = getDriver().findElement(By.xpath("//a[@href='/catalog/51']"));
+        String expectedTitle = driver.findElement(By.xpath("//a[@href='/catalog/51']/div[@class='course-list-card__title']")).getText();
+        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/51']"));
         catalog.click();
 
-        String actualTitle = getDriver().findElement(By.xpath("//div[contains (@class, 'catalog__category')]//h1[@class = 'catalog-block__title']")).getText();
+        String actualTitle = driver.findElement(By.xpath("//div[contains (@class, 'catalog__category')]//h1[@class = 'catalog-block__title']")).getText();
         Assert.assertEquals(actualTitle, expectedTitle);
 
     }
 
     @Test
     public void testCourseNumber() {
-        getDriver().get(URL);
+        driver.get(URL);
 
-        String strExpectedNumber = getDriver().findElement(By.xpath("//a[@href='/catalog/34']/div[@class='course-list-card__courses']")).getText();
+        String strExpectedNumber = driver.findElement(By.xpath("//a[@href='/catalog/12']/div[@class='course-list-card__courses']")).getText();
         int expectedNumber = Integer.parseInt(strExpectedNumber.replaceAll("[^0-9]", ""));
-        WebElement catalog = getDriver().findElement(By.xpath("//a[@href='/catalog/34']"));
+        WebElement catalog = driver.findElement(By.xpath("//a[@href='/catalog/12']"));
         catalog.click();
 
-        List<WebElement> itemList = getDriver().findElements(By.xpath("//div[@data-list-type='default']//li[@class = 'course-cards__item']"));
+        List<WebElement> itemList = driver.findElements(By.xpath("//div[@data-list-type='default']//li[@class = 'course-cards__item']"));
         int actualNumber = itemList.size();
         Assert.assertEquals(actualNumber, expectedNumber);
 
