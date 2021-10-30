@@ -42,6 +42,7 @@ public class WebstaurantstoreTest {
         //div[@id='details']/a[contains(@class, 'block') and not(contains(@class, 'inline-block'))]
 
         List<WebElement> itemList = driver.findElements(By.xpath("//a[@data-testid='itemDescription']"));
+        Assert.assertTrue(itemList.size() != 0);
 
         for (int i = 0; i < itemList.size(); i++) {
             Assert.assertTrue(itemList.get(i).getText().toLowerCase().contains("table"));
