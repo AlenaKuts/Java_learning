@@ -4,78 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21c413af-5865-44f4-89a2-094ca9fc1047" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW_FB_13_14/src/test/java/BottlesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bottle99Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CompareArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CompareSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OneSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SmallestDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ZeroSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Bottle99SongTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CompareArraysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CompareSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OneSequenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RemoveDuplicatesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SmallestDifferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SortedArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TwoSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ZeroSumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CompareArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CompareSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/OneSequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/RemoveDuplicates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SmallestDifference.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/SortedArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TwoSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ZeroSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/CompareArraysTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/CompareSumTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/OneSequenceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RemoveDuplicatesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/SmallestDifferenceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/SortedArrayTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TwoSumTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ZeroSumTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_14/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_14/src/test/java/AutomationpracticeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_14/src/test/java/WebstaurantstoreTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e509c594-e33b-41b5-af41-67925dad3118" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="1zodi9O6D0AnJyGobgczlJJZa6t" />
+  <component name="ProjectId" id="20E5khzA89SQ3St22ndICgR9Vmi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -84,95 +22,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../QA_03/PlatformaticaQA_03/pom.xml" />
-  </component>
-  <component name="RunManager" selected="JUnit.ZeroSumTest">
-    <configuration name="Bottle99Song" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bottle99Song" />
-      <module name="HW_FB_15_16" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallestDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW_FB_15_16" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SmallestDifferenceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW_FB_15_16" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZeroSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HW_FB_15_16" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZeroSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bottle99SongTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HW_FB_15_16" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Bottle99SongTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ZeroSumTest" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.SmallestDifferenceTest" />
-        <item itemvalue="TestNG.Bottle99SongTest" />
-        <item itemvalue="Application.Bottle99Song" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Git_repositories/Java_learning/HW_FB_13_14" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="21c413af-5865-44f4-89a2-094ca9fc1047" name="Changes" comment="" />
-      <created>1634818500622</created>
+      <changelist id="e509c594-e33b-41b5-af41-67925dad3118" name="Changes" comment="" />
+      <created>1635597050786</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1634818500622</updated>
+      <updated>1635597050786</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="12" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
