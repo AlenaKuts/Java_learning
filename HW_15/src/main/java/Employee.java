@@ -50,11 +50,11 @@ public class Employee {
     }
 
     public int getSalary(Month[] monthArray){
-        int daysSum = 0;
+        int sum = 0;
         for (int i = 0; i < monthArray.length; i++){
-            daysSum += monthArray[i].workingDays;
+            sum += getDaySalary() * monthArray[i].getWorkingDays();
         }
-        return daysSum * this.daySalary;
+        return sum;
     }
 
 

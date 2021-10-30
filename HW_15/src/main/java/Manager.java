@@ -23,14 +23,8 @@ public class Manager extends Employee{
 
     @Override
     public int getSalary(Month[] monthArray){
-        int daysSum = 0;
-        int salary = 0;
-        for (int i = 0; i < monthArray.length; i++){
-            daysSum += monthArray[i].workingDays;
-        }
-        salary = daysSum * this.daySalary;
-        salary += salary * 0.01 * numberEmployees;
-        return salary ;
+        int sum = super.getSalary(monthArray);
+        return sum + (int)(sum * getNumberEmployees() / 100);
     }
 
 
