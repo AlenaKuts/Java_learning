@@ -8,7 +8,7 @@ public class Employee {
     private String name;
     private int age;
     private char gender;
-    protected int daySalary; // clarify
+    private int daySalary;
 
     public Employee(String name, int age, char gender, int daySalary) {
         this.name = name;
