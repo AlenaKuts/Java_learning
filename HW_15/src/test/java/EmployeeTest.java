@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class EmployerTest {
+public class EmployeeTest {
 
     Employee employee = new Employee("Anna", 35, 'F', 50);
 
