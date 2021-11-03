@@ -43,10 +43,8 @@ public class RemoveDuplicates {
                     }
                 }
             }
-            return result;
 
+            return result;
         }
     }
-
-
 }

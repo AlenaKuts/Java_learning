@@ -13,14 +13,7 @@ public class CompareSum {
             sum2 += array[i];
         }
 
-
-
-        if (sum1 > sum2) {
-            return true;
-        } else {
-            return false;
-        }
+        return sum1 > sum2;
     }
-
 
 }

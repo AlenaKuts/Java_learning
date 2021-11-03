@@ -25,6 +25,15 @@ public class RemoveDuplicatesTest {
     }
 
     @Test
+    public void testRemoveDublicatesHappyPath3 () {
+        int[] array = {1, 0, 2, 3, 4, 5, 4, 3, 2, 1, 0};
+        int[] expectedResult = {1, 0, 2, 3, 4, 5};
+        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+        int[] actualResult = removeDuplicates.removeDublicates(array);
+        Assert.assertArrayEquals(expectedResult, actualResult);
+    }
+
+    @Test
     public void testRemoveDublicatesNegativePath1 () {
         int[] array = {1};
         int[] expectedResult = {1};

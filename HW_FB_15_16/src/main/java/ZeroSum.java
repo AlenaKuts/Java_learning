@@ -3,22 +3,16 @@ public class ZeroSum {
     // и возвращает массив из двух чисел, сумма которых равна 0.
 
     public int[] zeroSum(int[] array) {
-        int[] resultArray = new int[2];
         int firstNumber = 0;
         int secondNumber = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++){
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = i + 1; j < array.length; j++) {
                 if (array[i] + array[j] == 0) {
-                    firstNumber = array[i];
-                    secondNumber = array[j];
+                    return new int[]{array[i], array[j]};
                 }
             }
         }
-        resultArray[0] = firstNumber;
-        resultArray[1] = secondNumber;
 
-        return resultArray;
+        return new int[]{};
     }
-
-
 }

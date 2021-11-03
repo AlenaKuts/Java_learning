@@ -7,7 +7,6 @@ public class OneSequence {
     public int[] arrayOfOnes(int[] array) {
         int count = 0;
         int countMax = 0;
-        int[] result;
         if (array.length == 0 || (array.length == 1 && array[0] == 0)) {
             return new int[] {};
         } else if (array.length == 1 && array[0] == 1) {
@@ -28,16 +27,17 @@ public class OneSequence {
             }
         }
         if (countMax == 0) {
-            result = new int[]{};
+            return new int[]{};
         } else if (countMax == 1) {
-            result = new int[]{1};
+            return new int[]{1};
         } else {
-            result = new int[countMax];
+            int[] result = new int[countMax];
             for (int i = 0; i < countMax; i++) {
                 result[i] = 1;
             }
+
+            return result;
         }
-        return result;
     }
 
 }
