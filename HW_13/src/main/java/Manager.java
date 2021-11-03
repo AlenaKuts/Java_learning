@@ -27,7 +27,7 @@ public class Manager extends Worker{
         if (numberOfSubordinates == 0) {
             return super.getSalary();
         } else {
-            return getBaseSalary() + getBaseSalary() * numberOfSubordinates/100 * 3;
+            return getBaseSalary() + getBaseSalary() * (getNumberOfSubordinates()/100 * 3);
         }
     }
 
