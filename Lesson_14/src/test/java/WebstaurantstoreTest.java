@@ -1,3 +1,4 @@
+import base.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,37 +12,19 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class WebstaurantstoreTest {
+public class WebstaurantstoreTest extends BaseTest {
     private static final String URL = "https://www.webstaurantstore.com";
-
-    private WebDriver driver;
-
-    @BeforeMethod
-    public void setUp(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-    }
-
-    @AfterMethod
-    public void setDown() {
-        driver.quit();
-    }
-
-
 
     @Test
     public void testSearch () {
-        driver.get(URL);
-        driver.findElement(By.id("searchval")).sendKeys("table\n");
+        getDriver().get(URL);
+        getDriver().findElement(By.id("searchval")).sendKeys("table\n");
 
         //#details > a.block
         //div[@id='details']/a[@data-testid='itemDescription']
         //div[@id='details']/a[contains(@class, 'block') and not(contains(@class, 'inline-block'))]
 
-        List<WebElement> itemList = driver.findElements(By.xpath("//a[@data-testid='itemDescription']"));
+        List<WebElement> itemList = getDriver().findElements(By.xpath("//a[@data-testid='itemDescription']"));
         Assert.assertTrue(itemList.size() != 0);
 
         for (int i = 0; i < itemList.size(); i++) {
