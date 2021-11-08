@@ -1,6 +1,9 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,11 +18,14 @@ public class Bottle99SongTest {
 
     private WebDriver driver;
 
+    private WebDriver getDriver() {
+        return driver;
+    }
+
     @BeforeMethod
     public void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
@@ -31,13 +37,27 @@ public class Bottle99SongTest {
 
     @Test
     public void testBottle99Song() {
-        driver.get(URL);
+        getDriver().get(URL);
 
-        //div[@id = 'main']/p
-
+        getDriver().get("http://www.99-bottles-of-beer.net/lyrics.html");
+        List<WebElement> itemList = this.driver.findElements(By.xpath("//div[@id = 'main']/p"));
         List<String> songLyric = new ArrayList<>();
 
+        String expectedResult = Bottle99SongForWeb.songLyric();
+        StringBuilder actualResult = new StringBuilder();
 
+        for(int i = 0; i < itemList.size(); ++i) {
+            if (i == 99) {
+                actualResult
+                        .append(((WebElement)itemList.get(i)).getText());
+            } else {
+                actualResult
+                        .append(((WebElement)itemList.get(i)).getText())
+                        .append("\n") ;
+            }
+        }
+
+        Assert.assertEquals(String.valueOf(actualResult), expectedResult);
     }
 
 }
