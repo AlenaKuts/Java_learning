@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e509c594-e33b-41b5-af41-67925dad3118" name="Changes" comment="refactoring HW_FB_15_16 bottles99test">
-      <change afterPath="$PROJECT_DIR$/../HW_FB_13_14/src/test/java/Bottles99Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_FB_13_14/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_FB_13_14/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_FB_13_14/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_FB_13_14/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_FB_13_14/target/test-classes/BottlesTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/OddLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/ReplaceZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/ReturnNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/SpaceNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/SpaceRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/TypeQOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/UpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/main/java/VowelsNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/OddLettersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/ReplaceZeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/ReturnNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/SpaceNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/SpaceRemoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/TypeQORTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/UpperCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW_FB_17_18/src/test/java/VowelsNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_FB_13_14/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_FB_17_18/pom.xml" />
   </component>
   <component name="RunManager" selected="TestNG.Bottle99SongTest.testBottle99Song">
     <configuration name="Bottle99SongForWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
